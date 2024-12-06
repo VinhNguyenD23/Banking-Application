@@ -1,27 +1,57 @@
-# Getting Started
+# Banking Application - Spring Boot
 
-### Reference Documentation
+## Description
+The **Banking Application** is developed using **Spring Boot** to provide essential features for a banking system. It includes functionality for managing accounts, transactions, customers, and reports. The project uses a RESTful API architecture and integrates with a database for data processing.
 
-For further reference, please consider the following sections:
+---
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/3.4.0/gradle-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/3.4.0/gradle-plugin/packaging-oci-image.html)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/3.4.0/reference/data/sql.html#data.sql.jpa-and-spring-data)
-* [Spring Web](https://docs.spring.io/spring-boot/3.4.0/reference/web/servlet.html)
+## Key Features
+- **Customer Management**:
+    - Create, read, update, and delete (CRUD) customer information.
+- **Account Management**:
+    - Open accounts, check balances, and manage account types.
+- **Transaction Processing**:
+    - Perform transfers, deposits, and withdrawals.
+- **Reporting**:
+    - Transaction history and account statements.
 
-### Guides
+---
 
-The following guides illustrate how to use some features concretely:
+## Technologies Used
+- **Spring Boot**: The primary framework for application development.
+- **Spring Data JPA**: For database interaction.
+- **Database**: PostgreSQL.
+- **Spring Security**: For authentication and authorization.
+- **Gradle**: Dependency management and project build.
+- **Swagger**: For API documentation.
 
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+---
 
-### Additional Links
+## How to Run the Project
 
-These additional references should also help you:
+### System Requirements
+- **JDK 17 or higher**
+- **Gradle 7.5+**
+- **IDE**: IntelliJ IDEA, Eclipse, or VS Code
 
-* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
+### Setup Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/banking-spring-boot.git
+   cd banking-spring-boot
+   ```
+2. Build the project:
+   ```bash
+   ./gradlew build
+   ```
+3. Run the application:
+   ```bash
+   ./gradlew bootRun
+   ```
+---
 
+## Default Credentials
+    - NumberCard: `012345678`
+    - Pin: `1234`
+
+---
